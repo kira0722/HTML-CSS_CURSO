@@ -1,0 +1,20 @@
+body{
+    background-color: lightblue;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+
+/* class */
+.parrafo{
+    color: rgb(175, 13, 175);
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+}
+
+
+/* id */
+#text2{
+    color: rgb(0, 64, 119);
+}
