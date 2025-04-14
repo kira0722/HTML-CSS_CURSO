@@ -15,19 +15,26 @@ body{
 .container{
     border: .3rem solid black;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .box{
-    width: 10rem;
+    /* width: 10rem; */
     height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
 }
 
 .box1{
     background-color: blue;
+    /* flex-grow: 1; */
+    /* order: 1; */
 }
 
 .box2{
     background-color: blueviolet;
+    flex-grow: 1;
+    /* order: 3; */
 }
 
 .box3{
@@ -40,8 +47,10 @@ body{
 
 .box5{
     background-color: coral;
+    /* order: 4; */
 }
 
 .box6{
     background-color: salmon;
+    /* order: 2; */
 }
